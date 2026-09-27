@@ -1,0 +1,30 @@
+{
+  "_readme": "NativeFlow auth-codegen manifest. Do not edit by hand. Hand-edits made after download are not tracked here — once the ZIP leaves Studio there is no round-trip channel back. This file only tracks EXPORT-vs-EXPORT regressions, plus dependency and server-artifact ownership needed by the disable path.",
+  "version": 1,
+  "previousProvider": null,
+  "previousEnabled": false,
+  "authManagedDependencies": [
+    "zustand"
+  ],
+  "serverArtifacts": {
+    "rlsMigrations": [],
+    "accessPolicyJson": null,
+    "policies": []
+  },
+  "files": {
+    "lib/auth/types.ts": "25239ffce56fbd72",
+    "lib/auth/store.ts": "6cbc119e76b3b024",
+    "lib/auth/useAuth.ts": "0ac3f02a20f1b714",
+    "lib/auth/challenge.ts": "60b285f6e8214f04",
+    "lib/auth/secureStorage.ts": "cd64abb1e92370b7",
+    "lib/auth/apiClient.ts": "54ededed9b9ce77b",
+    "lib/auth/AuthGate.tsx": "bf4c3770dd80c722",
+    "lib/auth/DeepLinkGate.ts": "d86235038e1e1ead",
+    "lib/auth/offlineQueue.ts": "d6ee0d584aedd52e",
+    "components/Can.tsx": "77f7604c71cc783a",
+    "lib/auth/BiometricGate.tsx": "dea00f29d66bafff",
+    "lib/auth/BiometricEnrolmentSheet.tsx": "a18c8ec156149e4f",
+    "lib/auth/BiometricSettingsRow.tsx": "4695fad2768a0d8c"
+  },
+  "enforcementAnnotations": {}
+}
